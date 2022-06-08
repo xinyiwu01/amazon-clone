@@ -1,0 +1,59 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky; /*stick to the top we scroll down*/
+  top: 0;
+  z-index: 100; /*Z Index ( z-index ) is a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index.*/
+}
+.header__logo {
+  width: 100px;
+  object-fit: contain; /*object fits in its container*/
+  margin: 0 20px; /*top and bottom 0, left and right 20px*/
+  margin-top: 18px;
+}
+.header__search {
+  display: flex;
+  flex: 1; /*to stretch as much as it can*/
+  align-items: center;
+  border-radius: 24px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header__searchIcon {
+  padding: 5px;
+  height: 22px;
+  background-color: #cd9042;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header__optionLineOne {
+  font-size: 18px;
+}
+.header__optionLineTwo {
+  font-size: 20px;
+  font-weight: 800; /*boldness*/
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
